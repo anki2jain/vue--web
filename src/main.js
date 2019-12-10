@@ -10,7 +10,7 @@ const route = new Vuerouter({
   routes
 })
 new Vue({
-  route,
+  router:route,
   render: h => h(App),
   
 }).$mount('#app')
